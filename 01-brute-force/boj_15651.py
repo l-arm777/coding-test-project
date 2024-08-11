@@ -4,19 +4,17 @@ class BOJ15651:
         self.selected_array = [0] * self.m          # 새로 만들어 진 수열
         self.result = ""                            # 수열 모음
 
-    def rec_fuc(self, idx):
+    def generate_sequence(self, idx):
         # 수열이 완성 되었음
         if idx == self.m:
-            for elem in self.selected_array:
-                self.result += str(elem) + " "
-            self.result += "\n"
+            self.result += " ".join(map(str, self.selected_array)) + "\n"
         # 수열이 완성 되지 않아 새 숫자를 채워 넣어 줘야 함
         else:
             for i in range(1, self.n + 1):
                 self.selected_array[idx] = i
-                self.rec_fuc(idx+1)
+                self.generate_sequence(idx+1)
 
 
 resolve = BOJ15651()
-resolve.rec_fuc(0)
+resolve.generate_sequence(0)
 print(resolve.result.rstrip())
