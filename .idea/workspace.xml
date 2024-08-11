@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59e46b6-e3f3-4f36-980c-4d045b210238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01-brute-force/boj_15651_(2).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-brute-force/brute_force_theory.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-brute-force/brute_force_theory.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
