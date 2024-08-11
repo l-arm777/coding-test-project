@@ -7,7 +7,8 @@ class BOJ15651:
     def generate_sequence(self, idx):
         # 수열이 완성 되었음
         if idx == self.m:
-            self.result += " ".join(map(str, self.selected_array)) + "\n"
+            print(" ".join(map(str, self.selected_array)))
+            # self.result += " ".join(map(str, self.selected_array)) + "\n"
         # 수열이 완성 되지 않아 새 숫자를 채워 넣어 줘야 함
         else:
             for i in range(1, self.n + 1):
@@ -17,4 +18,4 @@ class BOJ15651:
 
 resolve = BOJ15651()
 resolve.generate_sequence(0)
-print(resolve.result.rstrip())
+# print(resolve.result.rstrip())
