@@ -19,6 +19,16 @@ def set_array(alphabet_array, user):
 set_array(alphabet_array1, input1)
 set_array(alphabet_array2, input2)
 
+"""
+for elem in ''.join(dict.fromkeys(input1)):
+    idx = ord(elem) - ord('a')
+    alphabet_array1[idx] += input1.count(elem)
+
+for elem in ''.join(dict.fromkeys(input2)):
+    idx = ord(elem) - ord('a')
+    alphabet_array2[idx] += input2.count(elem)
+"""
+
 for idx in range(len(alphabet_array1)):
     diff = abs(alphabet_array1[idx] - alphabet_array2[idx])
     if diff > 0:
