@@ -12,7 +12,10 @@ output = ""
 
 for elem in user:
     elem2ascii = ord(elem)
-    if 64 < elem2ascii < 91: output += chr(elem2ascii + 32)
-    elif 96 < elem2ascii < 123: output += chr(elem2ascii - 32)
+    
+    if ord('A') <= elem2ascii <= ord('Z'):
+        output += chr(elem2ascii - ord('A') + ord('a'))
+    elif ord('a') <= elem2ascii <= ord('z'):
+        output += chr(elem2ascii - ord('a') + ord('A'))
 
 print(output)
