@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59e46b6-e3f3-4f36-980c-4d045b210238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02-string/boj_1157_solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-string/boj_1543.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-string/boj_1157.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-string/boj_1157.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.boj_1157.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_15649.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_15649_resolve.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_15651.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_15651_(2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_1919.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_2744.executor&quot;: &quot;Run&quot;,
-    &quot;Python.boj_2744_(2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.boj_1157.executor": "Run",
+    "Python.boj_1157_solution.executor": "Run",
+    "Python.boj_1543.executor": "Run",
+    "Python.boj_15649.executor": "Run",
+    "Python.boj_15649_resolve.executor": "Run",
+    "Python.boj_15651.executor": "Run",
+    "Python.boj_15651_(2).executor": "Run",
+    "Python.boj_1919.executor": "Run",
+    "Python.boj_2744.executor": "Run",
+    "Python.boj_2744_(2).executor": "Run",
+    "Python.practice.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
