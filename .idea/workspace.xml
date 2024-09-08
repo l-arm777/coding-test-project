@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59e46b6-e3f3-4f36-980c-4d045b210238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02-string/boj_13223.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-string/boj_10158.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -40,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.boj_10158.executor": "Run",
     "Python.boj_1157.executor": "Run",
     "Python.boj_1157_solution.executor": "Run",
     "Python.boj_13223.executor": "Run",
