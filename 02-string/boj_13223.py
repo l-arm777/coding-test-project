@@ -32,7 +32,8 @@ output = [0, 0, 0]
 # print(calculate_time(future, current))
 
 # 하루가 지났을 경우
-if future[0] < current[0] or (future[0] == current[0] and future[1] < current[1]):
+# 문제조건: 로봇팔이 소금을 투하할때까지 필요한 시간을 hh:mm:ss -> 이 시간은 1초보다 크거나 같고, 24시간보다 작거나 같다.
+if future[0] < current[0] or (future[0] == current[0] and future[1] <= current[1]):
     noon = [24, 0, 0]
 
     yesterday = calculate_time(noon, current)
