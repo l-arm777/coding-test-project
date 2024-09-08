@@ -41,10 +41,11 @@ if future[0] < current[0] or (future[0] == current[0] and future[1] < current[1]
         output[i] = yesterday[i] + future[i]
 
     # 계산 상 sec, min이 60을 넘었을 때 => 언제 이런 케이스가 발생할까
-    if output[2] > 60:
+    # 60과 같을때도 올림 해주어야 함
+    if output[2] >= 60:
         output[1] += 1
         output[2] -= 60
-    if output[1] > 60:
+    if output[1] >= 60:
         output[0] += 1
         output[1] -= 60
 else:
